@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="764.0" prefWidth="1287.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <Line endX="513.0" endY="-178.0" layoutX="513.0" layoutY="532.0" startX="-69.70712280273438" startY="-107.2928466796875" />
+    <CubicCurve controlX1="-118.00003051757812" controlX2="-23.133331298828125" controlY1="-10.666671752929688" controlY2="45.866668701171875" endX="-91.39999389648438" endY="76.79998779296875" fill="#fffffffe" layoutX="425.0" layoutY="147.0" startX="-118.00003051757812" startY="63.00001525878906" stroke="BLACK" style="-fx-fill: transparent;" />
+    <Line endX="289.0" endY="-70.99996948242188" layoutX="416.0" layoutY="346.0" startX="-71.00003051757812" startY="-7.999969482421875" />
+    <Line endX="34.866668701171875" endY="2.000030517578125" layoutX="255.0" layoutY="334.0" startX="-15.000015258789062" startY="2.000030517578125" />
+    <Line endX="6.666656494140625" endY="29.26666259765625" layoutX="305.0" layoutY="366.0" startX="6.666656494140625" startY="3.0517578125E-5" />
+    <Line endX="34.866668701171875" endY="2.000030517578125" layoutX="354.0" layoutY="420.0" startX="-15.000015258789062" startY="2.000030517578125" />
+    <Line endX="587.0" endY="-154.99996948242188" layoutX="510.0" layoutY="427.0" startX="-66.0" startY="-2.999969482421875" />
+    <CubicCurve controlX1="-118.00003051757812" controlX2="-46.0" controlY1="-10.666671752929688" controlY2="25.000015258789062" endX="-105.0" endY="92.46664428710938" fill="#fffffffe" layoutX="1216.0" layoutY="148.0" startX="-139.13333129882812" startY="83.93331909179688" stroke="BLACK" style="-fx-fill: transparent;" />
+    <Label layoutX="1130.0" layoutY="157.0" text="[a-z]" />
+    <CubicCurve controlX1="-127.066650390625" controlX2="-24.66668701171875" controlY1="-32.40000915527344" controlY2="20.133316040039062" endX="-105.0" endY="92.46664428710938" fill="#fffffffe" layoutX="1026.0" layoutY="161.0" startX="-139.13333129882812" startY="83.93331909179688" stroke="BLACK" style="-fx-fill: transparent;" />
+    <Label layoutX="953.0" layoutY="163.0" text="[0-9]" />
+    <CubicCurve controlX1="-118.00003051757812" controlX2="-23.133331298828125" controlY1="-10.666671752929688" controlY2="45.866668701171875" endX="-105.0" endY="92.46664428710938" fill="#fffffffe" layoutX="822.0" layoutY="151.0" startX="-139.13333129882812" startY="83.93331909179688" stroke="BLACK" style="-fx-fill: transparent;" />
+    <Label layoutX="752.0" layoutY="176.0" text="[a-z]" />
+    <CubicCurve controlX1="-118.00003051757812" controlX2="-23.133331298828125" controlY1="-10.666671752929688" controlY2="45.866668701171875" endX="-105.0" endY="92.46664428710938" fill="#fffffffe" layoutX="637.0" layoutY="142.0" startX="-139.13333129882812" startY="83.93331909179688" stroke="BLACK" style="-fx-fill: transparent;" />
+    <Circle fill="WHITE" layoutX="1197.0" layoutY="577.0" radius="42.0" stroke="BLACK" strokeType="INSIDE" />
+    <BorderPane fx:id="navbar" prefHeight="72.0" prefWidth="1302.0" style="-fx-background-color: coral;">
+        <effect>
+            <DropShadow />
+        </effect>
+        <bottom>
+            <Label text="Lenguajes Autómatas" textFill="WHITE" underline="true" BorderPane.alignment="CENTER">
+            <font>
+               <Font size="18.0" />
+            </font></Label>
+        </bottom>
+      <center>
+            <Label prefHeight="760.0" text="Universidad Politécnica de Chiapas" textFill="WHITE" underline="true" BorderPane.alignment="CENTER">
+            <font>
+               <Font size="19.0" />
+            </font></Label>
+      </center>
+    </BorderPane>
+    <Label layoutX="400.0" layoutY="109.0" text="Ingrese la cadena :" />
+    <Circle fx:id="q0" layoutX="74.0" layoutY="247.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Button fx:id="btn_start" layoutX="844.0" layoutY="103.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedStart" text="Comenzar" />
+    <Label layoutX="67.0" layoutY="238.0" text="q0" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="1.0" layoutY="366.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Polyline fill="BLACK" layoutX="64.0" layoutY="385.0" points="-50.0, -40.0, -49.99999237060547, 0.79998779296875, -25.000015258789062, -18.000015258789062, -50.0, -40.0" strokeType="INSIDE" />
+    <Label layoutX="187.0" layoutY="236.0" text="q0" textFill="WHITE" />
+    <Circle fx:id="q1" layoutX="160.0" layoutY="245.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="153.0" layoutY="237.0" text="q1" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="119.0" layoutY="244.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Circle fx:id="q3" layoutX="307.0" layoutY="245.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="300.0" layoutY="237.0" text="q3" textFill="WHITE" />
+    <Line endX="30.33331298828125" endY="-8.466644287109375" layoutX="251.0" layoutY="244.0" startX="4.733306884765625" startY="-43.66668701171875" strokeLineCap="BUTT" />
+    <Circle fx:id="q4" layoutX="409.0" layoutY="244.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="402.0" layoutY="236.0" text="q4" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="353.0" layoutY="243.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Circle fx:id="q5" layoutX="511.0" layoutY="243.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="504.0" layoutY="235.0" text="q5" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="455.0" layoutY="242.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Circle fx:id="q6" layoutX="613.0" layoutY="242.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="606.0" layoutY="234.0" text="q6" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="557.0" layoutY="241.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Circle fx:id="q7" layoutX="705.0" layoutY="240.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="698.0" layoutY="232.0" text="q7" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="649.0" layoutY="239.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Circle fx:id="q8" layoutX="806.0" layoutY="238.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="799.0" layoutY="230.0" text="q8" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="750.0" layoutY="237.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Circle fx:id="q9" layoutX="908.0" layoutY="238.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="901.0" layoutY="230.0" text="q9" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="852.0" layoutY="237.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Circle fx:id="q10" layoutX="1000.0" layoutY="238.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="993.0" layoutY="230.0" text="q10" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="944.0" layoutY="237.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Circle fx:id="q11" layoutX="1097.0" layoutY="237.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="1090.0" layoutY="229.0" text="q11" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="1041.0" layoutY="236.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Circle fx:id="q12" layoutX="1193.0" layoutY="236.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="1186.0" layoutY="228.0" text="q12" textFill="WHITE" />
+    <Line endX="19.200035095214844" endY="-1.52587890625E-5" layoutX="1137.0" layoutY="235.0" startX="-10.899988174438477" strokeLineCap="BUTT" />
+    <Line endX="-16.0" endY="25.0" layoutX="1104.0" layoutY="298.0" startX="77.0" startY="-27.0" />
+    <Circle fx:id="q13" layoutX="1247.0" layoutY="325.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="1240.0" layoutY="317.0" text="q13" textFill="WHITE" />
+    <Line endX="-3.0" endY="32.79998779296875" layoutX="1199.0" layoutY="353.0" startX="29.0" startY="-4.0" />
+    <Circle fx:id="q14" layoutX="1196.0" layoutY="409.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="1186.0" layoutY="399.0" text="q14" textFill="WHITE" />
+    <Line endX="-3.0" endY="32.79998779296875" layoutX="1200.0" layoutY="438.0" startX="-3.0" startY="3.0517578125E-5" />
+    <Circle fx:id="q15" layoutX="1197.0" layoutY="494.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="1187.0" layoutY="484.0" text="q15" textFill="WHITE" />
+    <Line endX="-3.0" endY="32.79998779296875" layoutX="1201.0" layoutY="520.0" startX="-3.0" startY="3.0517578125E-5" />
+    <Circle fx:id="q16" layoutX="1197.0" layoutY="578.0" radius="32.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="1188.0" layoutY="566.0" text="q16" textFill="WHITE" />
+    <Button fx:id="btn_restart" layoutX="942.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedRestart" text="De nuevo" />
+    <Circle fx:id="q17" layoutX="205.0" layoutY="336.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="198.0" layoutY="328.0" text="q17" textFill="WHITE" />
+    <Circle fx:id="q18" layoutX="310.0" layoutY="338.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="303.0" layoutY="330.0" text="q18" textFill="WHITE" />
+    <Circle fx:id="q19" layoutX="310.0" layoutY="424.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="303.0" layoutY="414.0" text="q19" textFill="WHITE" />
+    <Circle fx:id="q20" layoutX="409.0" layoutY="424.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+    <Label layoutX="402.0" layoutY="416.0" text="q20" textFill="WHITE" />
+    <Label layoutX="397.0" layoutY="502.0" text="q21" textFill="WHITE" />
+    <Label layoutX="515.0" layoutY="500.0" text="q22" textFill="WHITE" />
+    <Label layoutX="119.0" layoutY="205.0" text="(" />
+    <Label layoutX="241.0" layoutY="223.0" text="[a-z]" />
+    <Label layoutX="353.0" layoutY="219.0" text="=" />
+    <Label layoutX="344.0" layoutY="151.0" text="[a-z]" />
+    <Label layoutX="445.0" layoutY="216.0" text="[0-9]" />
+    <Label layoutX="567.0" layoutY="167.0" text="[0-9]" />
+    <Label layoutX="559.0" layoutY="247.0" text=";" />
+    <Label layoutX="644.0" layoutY="206.0" text="[a-z]" />
+    <Label layoutX="720.0" layoutY="268.0" text="!=|==|&lt;|&lt;=|&gt;|&gt;=" />
+    <Label layoutX="845.0" layoutY="207.0" text="[0-9]" />
+    <Label layoutX="951.0" layoutY="239.0" text=";" />
+    <Label layoutX="1035.0" layoutY="212.0" text="[a-z]" />
+    <Label layoutX="1139.0" layoutY="202.0" text="++|--" />
+    <Label layoutX="1124.0" layoutY="277.0" text=")" />
+    <Label layoutX="1119.0" layoutY="357.0" text="instrucciones" />
+    <Label layoutX="1209.0" layoutY="442.0" text=";" />
+    <Label layoutX="1222.0" layoutY="520.0" text="}" />
+    <Label layoutX="217.0" layoutY="281.0" text="€" />
+    <Label layoutX="253.0" layoutY="314.0" text=";" />
+    <Label layoutX="379.0" layoutY="308.0" text="[a-z]" />
+    <Label layoutX="328.0" layoutY="377.0" text="€" />
+    <Label layoutX="357.0" layoutY="400.0" text=";" />
+    <Label layoutX="592.0" layoutY="357.0" text="[a-z]" />
+   <Button fx:id="btn_finish" layoutX="1027.0" layoutY="101.0" mnemonicParsing="false" onMouseClicked="#onMouseClickedFinished" text="Salir" />
+   <TextField fx:id="input" layoutX="525.0" layoutY="88.0" prefHeight="72.0" prefWidth="255.0" />
+   <Circle fx:id="q2" layoutX="229.0" layoutY="190.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+   <Label layoutX="222.0" layoutY="182.0" text="q2" textFill="WHITE" />
+   <Line endX="-86.33334350585938" endY="-25.933319091796875" layoutX="261.0" layoutY="254.0" startX="-55.399993896484375" startY="-59.00001525878906" strokeLineCap="BUTT" />
+   <Label layoutX="162.0" layoutY="171.0" text="int" />
+   <Line endX="-101.66668701171875" endY="6.73333740234375" layoutX="271.0" layoutY="264.0" startX="-77.13331604003906" startY="42.999969482421875" strokeLineCap="BUTT" />
+   <AnchorPane layoutX="-13.0" layoutY="649.0" prefHeight="138.0" prefWidth="1314.0" style="-fx-background-color: grey;">
+      <children>
+         <ImageView fitHeight="108.0" fitWidth="111.0" layoutX="439.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@logoUP.png" />
+            </image>
+         </ImageView>
+         <Label layoutX="618.0" layoutY="58.0" text="Salim Vazquez Solis" textFill="WHITE">
+            <font>
+               <Font size="27.0" />
+            </font>
+         </Label>
+      </children>
+   </AnchorPane>
+   <Circle fx:id="q" layoutX="74.0" layoutY="366.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+   <Label layoutX="45.0" layoutY="293.0" text="for" />
+   <Label layoutX="67.0" layoutY="358.0" text="q" textFill="WHITE" />
+   <Line endX="6.666656494140625" endY="29.26666259765625" layoutX="67.0" layoutY="307.0" startX="7.0" startY="-25.0" />
+   <Circle fx:id="q22" layoutX="1061.0" layoutY="345.0" radius="35.0" stroke="BLACK" strokeType="INSIDE" />
+   <Label layoutX="1051.0" layoutY="339.0" text="q21" textFill="WHITE" />
+   <Label layoutX="1156.0" layoutY="308.0" text="{" />
+   <Line endX="-5.0" endY="39.0" layoutX="1097.0" layoutY="301.0" startX="121.0" startY="27.0" />
+   <Label layoutX="737.0" layoutY="406.0" text=")" />
+   <Line endX="522.0" endY="-215.0" layoutX="523.0" layoutY="542.0" startX="482.0" startY="-277.0" />
+   <Label layoutX="1036.0" layoutY="293.0" text=")" />
+   <Line endX="87.0" endY="-270.70709228515625" layoutX="523.0" layoutY="542.0" startX="-191.0" startY="-136.0" />
+   <Label layoutX="386.0" layoutY="359.0" text="€" />
+</AnchorPane>
