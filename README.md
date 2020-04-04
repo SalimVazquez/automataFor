@@ -28,3 +28,4 @@ You need:
 ## Autores ✒️
 
 * [**Salim Vazquez Solis**](https://github.com/SalimVazquez)
+* [**Uriel Ortiz**](https://github.com/OrtizUriel112/)
